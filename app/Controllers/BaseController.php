@@ -2,21 +2,21 @@
 
 namespace App\Controllers;
 
-use App\Database;
+//use App\Database;
 
 class BaseController
 {
-    protected $db;
+    //protected $db;
 
-    public function __construct()
-    {
-        $this->db = (new Database())->connect();
-    }
+    //public function __construct()
+    //{
+    //    $this->db = (new Database())->connect();
+    //}
 
     protected function view($view, $data = [])
     {
         extract($data);
-        require __DIR__ . '/../Views/' . $view . '.php';
+        require_once "../app/Views/{$view}.php";
     }
 
     protected function redirect($url)

@@ -9,7 +9,7 @@
 				</button>
 			</div>
 			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-				<li class="nav-item dropdown">
+				<li class="nav-item dropdown active-link">
 					<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 						<i class="icon-stacked_line_chart"></i> Dashboards
 					</a>
