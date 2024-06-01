@@ -28,9 +28,7 @@
                     <div class="card-body">
                         <!-- Your code goes here -->
                         <?php
-                        echo '<pre>';
-                        print_r($menus);
-                        echo '</pre>';
+                        
                         ?>
                     </div>
                 </div>
